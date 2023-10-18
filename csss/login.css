@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: url("../images/Animated\ Shape\ \(1\).svg");
+  background-size: cover;
+}
+
+.container {
+  margin-top: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container h1, .container h3 {
+  padding-left: 30px;
+  font-family: 'Lobster', cursive;
+}
+
+.container h1 {
+  color:#f38423;
+  font-size: 80px;
+  width: 50%;
+  display: block;
+  margin: auto;
+  margin-left: 1.2rem;
+}
+
+.container h3 {
+  font-size: 50px;
+  color: #f4f4f4;
+}
+
+.logform {
+  width: 45%;
+  padding: 20px;
+  border-radius: 10px;
+  background-color:#f4f4f4;
+}
+
+.logform .form-control, form .custom-select {
+  border: 1px solid #0a225c;
+}
+
+.logform .btn {
+  display: block;
+  margin: auto;
+  width: 150px;
+}
+
+.logform img {
+  width: 80px;
+  height: 100px;
+  display: block;
+  margin: auto;
+  margin-top: -23px;
+  margin-bottom: 12px;
+}
+
+.logform .input-group-text {
+  background-color: #0a225c;
+}
+
+.logform .fas, form .text {
+  color:#f4f4f4;
+}
+
+@media only screen and (max-width: 830px) {
+  body {
+    background: none;
+  }
+  .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .container form {
+    -webkit-box-flex: 2;
+        -ms-flex: 2;
+            flex: 2;
+    width: 100%;
+  }
+  .container .title h1 {
+    font-size: 50px;
+  }
+  .container .title h3 {
+    font-size: 30px;
+    color: black;
+  }
+}
+/*# sourceMappingURL=login.css.map */
